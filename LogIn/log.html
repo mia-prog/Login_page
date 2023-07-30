@@ -31,14 +31,22 @@
                 <form action="#">
                     <h2>Login</h2>
                     <div class="input-box">
-                        <input type="email" placeholder="Enter your email">
+                        <input type="email" placeholder="Enter your email" required />
                         <i class="uil uil-envelope-alt email"></i>
                     </div>
                     <div class="input-box">
-                        <input type="passeword" placeholder="Enter your password">
+                        <input type="passeword" placeholder="Enter your password" required />
                         <i class="uil uil-lock passeword"></i>
                         <i class="uil uil-eye-slash pw_hide"></i>
                     </div>
+                    <div class="options">
+                        <span class="checkbox">
+                            <input type="checkbox" id="check">
+                            <label for="check">Remember me</label>
+                        </span>
+                        <a href="#" class="forget_pw">Forgot passeword? </a>
+                    </div>
+                    <button class="button">Login now</button>
                 </form>
              </div>
         </div>
